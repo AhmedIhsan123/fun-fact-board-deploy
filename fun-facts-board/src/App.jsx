@@ -1,12 +1,12 @@
-import './App.css'
-import FunFactCard from './FunFactCard.jsx';
+import "./App.css";
+import FunFactCard from "./FunFactCard.jsx";
 
 function App() {
-  return (
-    <div>
-      <FunFactCard />
-    </div>
-  );
+	return (
+		<div>
+			<FunFactCard fact={"I like soccer!"} />
+		</div>
+	);
 }
 
 export default App;
